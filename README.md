@@ -1,2 +1,2 @@
 # Online-zoo
-Landing page. Implemented features: slider, modal window,burger menu.
+Landing page. Implemented features: 2 sliders, modal window, burger menu.
