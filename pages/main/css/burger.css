@@ -1,0 +1,128 @@
+.burger__modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.658);
+}
+
+.burger__menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+
+.burger__menu-nav {
+  border-radius: 2px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.burger__menu-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+  gap: 15px;
+}
+.burger__menu-nav a {
+  text-decoration: none;
+  color: rgb(56, 55, 55);
+  display: inline;
+}
+.burger__menu-nav a:hover {
+  color: rgb(219, 219, 219);
+}
+.burger__menu-nav a:active {
+  color: #0D606F;
+}
+.burger__menu-nav a.active {
+  color: #F9804B;
+}
+.burger__menu-nav .logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 0.8px solid #FE9013;
+  border-radius: 2px;
+  position: relative;
+}
+.burger__menu-nav .logo h1 {
+  font-weight: 300;
+  color: #FE9013;
+}
+.burger__menu-nav .logo img {
+  position: absolute;
+}
+
+.button__closer {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 980px) and (min-width: 640px) {
+  .burger__modal-nav {
+    height: 329px;
+  }
+  .burger__modal-nav .logo {
+    width: 65.6px;
+    height: 41.6px;
+  }
+  .burger__modal-nav .logo h1 {
+    font-size: 15.2116px;
+    line-height: 120%;
+    padding: 2px 4px;
+  }
+  .burger__modal-nav .logo img {
+    width: 5.62px;
+    height: 16.79px;
+    left: 11px;
+    top: 21px;
+  }
+}
+@media (min-width: 981px) {
+  .burger__modal,
+.burger__icon {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  .burger__modal,
+.burger__icon {
+    display: flex;
+  }
+}
+.hide__menu {
+  transform: translateX(100%);
+  transition: all 0.9s;
+}
+
+.show__menu {
+  transform: translateX(0);
+  transition: all 0.5s;
+}
+
+.burger__icon {
+  flex-direction: column;
+  gap: 2px;
+}
+.burger__icon div {
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+}/*# sourceMappingURL=burger.css.map */

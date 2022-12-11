@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link type="image/x-icon" href="../../assets/icons/favicon.ico" rel="shortcut icon">
+    <title>Pet Story</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <h1>PetStory online</h1>
+                    <img src="../../assets/images/bamboo.svg" alt="bamboo">
+                </a>
+                <ul class="navigation">
+                    <li><a href="#" class="active">About</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Zoos</a></li>
+                    <li><a href="../donate/donate.html">Donate</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="creator">Designed by
+                ©</a>
+            <div class="burger__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="burger__modal">
+            <div class="burger__menu-wrapper">
+                <div class="burger__menu-nav">
+                    <a href="#" class="logo">
+                        <h1>PetStory online</h1>
+                        <img src="../../assets/images/bamboo.svg" alt="bamboo">
+                    </a>
+                    <ul>
+                        <li><a href="#" class="active">About</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Zoos</a></li>
+                        <li><a href="../donate/donate.html">Donate</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by©</a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="button__closer" src="../../assets/images/x_icon.svg" alt="close">
+            </div>
+        </section>
+
+        <section class="testimonial__modal">
+            <div class="close__icon">
+                <svg class="closeIcon__inner" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1 14C0.744141 14 0.488281 13.9023 0.292969 13.707C-0.0976562 13.3164 -0.0976562 12.6836 0.292969 12.293L12.293 0.292969C12.6836 -0.0976562 13.3164 -0.0976562 13.707 0.292969C14.0977 0.683594 14.0977 1.31641 13.707 1.70703L1.70703 13.707C1.51172 13.9023 1.25586 14 1 14Z"
+                        fill="#F9804B" />
+                    <path
+                        d="M13 14C12.7441 14 12.4883 13.9023 12.293 13.707L0.292969 1.70703C-0.0976562 1.31641 -0.0976562 0.683594 0.292969 0.292969C0.683594 -0.0976562 1.31641 -0.0976562 1.70703 0.292969L13.707 12.293C14.0977 12.6836 14.0977 13.3164 13.707 13.707C13.5117 13.9023 13.2559 14 13 14Z"
+                        fill="#F9804B" />
+                </svg>
+            </div>
+        </section>
+
+        <section id="favorite__animal">
+            <div class="container">
+                <div class="circle">
+                    <div class="inscription">
+                        WATCH YOUR <span>FAVORITE</span> ANIMAL ONLINE
+                    </div>
+                </div>
+
+                <button class="btn">WATCH ONLINE</button>
+            </div>
+        </section>
+
+        <section id="backstage">
+            <div class="container">
+                <button class="btn">WATCH ONLINE</button>
+                <div>
+                    <img src="../../assets/images/bamboo_cap.jpg" alt="backstage" class="large-backstage">
+                    <img src="../../assets/images/small/backstage.jpg" alt="backstage" class="small-backstage">
+                </div>
+                <div class="backstage__content">
+                    <h2>The Backstage of the Wilderness World.</h2>
+                    <p>The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
+                    <h3>How it works</h3>
+                    <p>The main goal is to help the animals, as well as the nature reserves and zoos where they are
+                        kept. We
+                        are currently
+                        working on video projects targeting pandas in China, eagles on an island near Los Angeles,
+                        alligators in Florida and
+                        gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pets">
+            <div class="slider__wrapper">
+                <div class="slider">
+                    <button class="move prev move-large">
+                        <img src="../../assets/images/slide_prev.svg" alt="">
+                    </button>
+                    <div class="container">
+                        <div class="cards">
+                            <div class="cards__first">
+                                <div class="card" id="pandas">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/pandas.jpg" alt="pandas">
+                                        </div>
+                                        <div class="card__description herbivores">
+                                            <div class="card__description-header">GIANT PANDAS</div>
+                                            <div class="card__description-text">Native to Southwest China</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="eagles">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/eagles.jpg" alt="eagles">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">EAGLES</div>
+                                            <div class="card__description-text">Native to South America</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="cheetahs1">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/cheetahs.jpg" alt="cheetahs">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">CHEETAHS</div>
+                                            <div class="card__description-text">Native to Africa</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="gorillas1">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/gorillas.jpg" alt="gorillas">
+                                        </div>
+                                        <div class="card__description herbivores">
+                                            <div class="card__description-header">GORILLAS</div>
+                                            <div class="card__description-text">Native to Congo</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="alligators2">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/alligators.jpg" alt="alligators">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">ALLIGATORS</div>
+                                            <div class="card__description-text">Native to Southeastern United States
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="wrapper__move-small">
+                                <button class="move prev move-small">
+                                    <img src="../../assets/images/slide_prev.svg" alt="">
+                                </button>
+                                <button class="move next move-small">
+                                    <img src="../../assets/images/slide_next.svg" alt="">
+                                </button>
+                            </div>
+
+                            <div class="cards__second">
+                                <div class="card" id="sloth">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/sloth.jpg" alt="sloth">
+                                        </div>
+                                        <div class="card__description herbivores">
+                                            <div class="card__description-header">TWO-TOED SLOTH</div>
+                                            <div class="card__description-text">Mesoamerica, South America</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="cheetahs2">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/cheetahs.jpg" alt="cheetahs">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">CHEETAHS</div>
+                                            <div class="card__description-text">Native to Africa</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="gorillas2">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/gorillas.jpg" alt="gorillas">
+                                        </div>
+                                        <div class="card__description herbivores">
+                                            <div class="card__description-header">GORILLAS</div>
+                                            <div class="card__description-text">Native to Congo</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="alligators1">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/alligators.jpg" alt="alligators">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">ALLIGATORS</div>
+                                            <div class="card__description-text">Native to Southeastern U. S.</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="card" id="penguins2">
+                                    <a>
+                                        <div class="pet">
+                                            <img src="../../assets/images/penguins.jpg" alt="penguins">
+                                        </div>
+                                        <div class="card__description predators">
+                                            <div class="card__description-header">PENGUINS</div>
+                                            <div class="card__description-text">Native to Antarctica</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="move next move-large">
+                        <img src="../../assets/images/slide_next.svg" alt="">
+                    </button>
+                </div>
+                <button class="btn">CHOOSE YOUR FAVORITE</button>
+            </div>
+
+        </section>
+
+        <section id="pick__friend">
+            <div class="container">
+                <h2>Pick and feed a friend</h2>
+                <p id="bring">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                <p id="covid">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and
+                    glad that people around the world
+                    find joy in PetStory.</p>
+                <p id="emergency">Even though the zoo has reopened, we need you now more than ever to help us deal with
+                    these problems. Please consider a
+                    gift to our <a href="../donate/donate.html">Emergency Support Fund</a> .</p>
+                <h3>How it works</h3>
+
+                <div class="procedure">
+                    <div class="green__arrows">
+                        <div>
+                            <img src="../../assets/images/tablet/arrow.svg" alt="arrow">
+                        </div>
+                        <div>
+                            <img src="../../assets/images/tablet/arrow.svg" alt="arrow">
+                        </div>
+                    </div>
+                    <div class="procedure__stage" id="stage1">
+                        <div class="procedure__stage-picture">
+                            <img src="../../assets/images/pay.jpg" alt="pay">
+                        </div>
+                        <p class="procedure__stage-explanation">Pay with card</p>
+                    </div>
+                    <div class="procedure__arrow">
+                        <img src="../../assets/images/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="procedure__stage" id="stage2">
+                        <div class="procedure__stage-picture">
+                            <img src="../../assets/images/payment.jpg" alt="pay">
+                        </div>
+                        <p class="procedure__stage-explanation">Payment goes to the zoo</p>
+                    </div>
+                    <div class="procedure__arrow">
+                        <img src="../../assets/images/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="procedure__stage" id="stage3">
+                        <div class="procedure__stage-picture">
+                            <img src="../../assets/images/delicious.jpg" alt="pay">
+                        </div>
+                        <p class="procedure__stage-explanation">Your favourite animal gets delicious dish</p>
+                    </div>
+                </div>
+
+                <button class="btn">
+                    <a href="../donate/donate.html">FEED A FRIEND NOW</a>
+                </button>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="container__testimonials">
+                    <div class="container__testimonials-inner">
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M37 18.5C37 8.30445 28.6956 0 18.5 0C8.30445 0 0 8.30445 0 18.5C0 24.6256 3.00111 30.0933 7.64667 33.4644C7.72889 33.5467 7.81111 33.5878 7.89333 33.6289C10.8944 35.7667 14.5533 37 18.5 37C22.4467 37 26.1056 35.7667 29.1067 33.6289C29.1889 33.5878 29.2711 33.5056 29.3533 33.4644C33.9989 30.0933 37 24.6256 37 18.5ZM9.04445 32.4367V31.6556C9.04445 26.4344 13.2789 22.2 18.5 22.2C23.7211 22.2 27.9556 26.4344 27.9556 31.6556V32.4367C25.2422 34.2867 21.9944 35.3556 18.5 35.3556C15.0056 35.3556 11.7578 34.2867 9.04445 32.4367ZM13.5667 15.6222C13.5667 12.9089 15.7867 10.6889 18.5 10.6889C21.2133 10.6889 23.4333 12.9089 23.4333 15.6222C23.4333 18.3356 21.2133 20.5556 18.5 20.5556C15.7867 20.5556 13.5667 18.3356 13.5667 15.6222ZM29.6 31.1622C29.3944 26.4756 26.3111 22.57 22.0767 21.1311C23.8856 19.98 25.0778 17.9244 25.0778 15.6222C25.0778 12.0044 22.1178 9.04445 18.5 9.04445C14.8822 9.04445 11.9222 12.0044 11.9222 15.6222C11.9222 17.9244 13.1144 19.98 14.9233 21.1311C10.6889 22.57 7.60556 26.5167 7.4 31.1622C3.86444 28.0789 1.64444 23.5567 1.64444 18.5C1.64444 9.20889 9.20889 1.64444 18.5 1.64444C27.7911 1.64444 35.3556 9.20889 35.3556 18.5C35.3556 23.5567 33.1356 28.0789 29.6 31.1622Z"
+                                                fill="#767474" />
+                                        </svg>
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Michael John</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Austria</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Today</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__mobile">
+                                        The best online zoo I’ve met. My son delighted very much ljves to watch....
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Oskar.svg" alt="Oskar">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Oskar Samborsky</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Austria</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                        I’ve met. My son delighted very much
+                                        ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
+                                        animals.The best online zoo I’ve met. My
+                                        son delighted very much ljves to watch gouillas.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Frederica.svg" alt="Fredericka">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Fredericka Michelin</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Austria</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Mila.svg" alt="Mila">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Mila Riksha</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Austria</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways
+                                        to instill a love for animals.The best
+                                        online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                        zoo is one jf the ways to instill a love
+                                        for animals.The best online zoo I’ve met. My son delighted very much ljves to
+                                        watch gouillas. Online zoo is one jf the
+                                        ways to instill a love for animals.The best online zoo I’ve met. My son
+                                        delighted very much ljves to watch gouillas.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M37 18.5C37 8.30445 28.6956 0 18.5 0C8.30445 0 0 8.30445 0 18.5C0 24.6256 3.00111 30.0933 7.64667 33.4644C7.72889 33.5467 7.81111 33.5878 7.89333 33.6289C10.8944 35.7667 14.5533 37 18.5 37C22.4467 37 26.1056 35.7667 29.1067 33.6289C29.1889 33.5878 29.2711 33.5056 29.3533 33.4644C33.9989 30.0933 37 24.6256 37 18.5ZM9.04445 32.4367V31.6556C9.04445 26.4344 13.2789 22.2 18.5 22.2C23.7211 22.2 27.9556 26.4344 27.9556 31.6556V32.4367C25.2422 34.2867 21.9944 35.3556 18.5 35.3556C15.0056 35.3556 11.7578 34.2867 9.04445 32.4367ZM13.5667 15.6222C13.5667 12.9089 15.7867 10.6889 18.5 10.6889C21.2133 10.6889 23.4333 12.9089 23.4333 15.6222C23.4333 18.3356 21.2133 20.5556 18.5 20.5556C15.7867 20.5556 13.5667 18.3356 13.5667 15.6222ZM29.6 31.1622C29.3944 26.4756 26.3111 22.57 22.0767 21.1311C23.8856 19.98 25.0778 17.9244 25.0778 15.6222C25.0778 12.0044 22.1178 9.04445 18.5 9.04445C14.8822 9.04445 11.9222 12.0044 11.9222 15.6222C11.9222 17.9244 13.1144 19.98 14.9233 21.1311C10.6889 22.57 7.60556 26.5167 7.4 31.1622C3.86444 28.0789 1.64444 23.5567 1.64444 18.5C1.64444 9.20889 9.20889 1.64444 18.5 1.64444C27.7911 1.64444 35.3556 9.20889 35.3556 18.5C35.3556 23.5567 33.1356 28.0789 29.6 31.1622Z"
+                                                fill="#767474" />
+                                        </svg>
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Alexander Ovechkin</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local USA</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Today</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__mobile">
+                                        The best online zoo I’ve met. My son delighted very much ljves to watch....
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Oskar.svg" alt="Robert">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Robert Izmaylov</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Poland</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                        I’ve met. My son delighted very much
+                                        ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
+                                        animals.The best online zoo I’ve met. My
+                                        son delighted very much ljves to watch gouillas.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Frederica.svg" alt="Merylin">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Merilyn Besco</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Hungary</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Mila.svg" alt="Valentina">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Valentina Novakova</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Moldova</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways
+                                        to instill a love for animals.The best
+                                        online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                        zoo is one jf the ways to instill a love
+                                        for animals.The best online zoo I’ve met. My son delighted very much ljves to
+                                        watch gouillas. Online zoo is one jf the
+                                        ways to instill a love for animals.The best online zoo I’ve met. My son
+                                        delighted very much ljves to watch gouillas.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M37 18.5C37 8.30445 28.6956 0 18.5 0C8.30445 0 0 8.30445 0 18.5C0 24.6256 3.00111 30.0933 7.64667 33.4644C7.72889 33.5467 7.81111 33.5878 7.89333 33.6289C10.8944 35.7667 14.5533 37 18.5 37C22.4467 37 26.1056 35.7667 29.1067 33.6289C29.1889 33.5878 29.2711 33.5056 29.3533 33.4644C33.9989 30.0933 37 24.6256 37 18.5ZM9.04445 32.4367V31.6556C9.04445 26.4344 13.2789 22.2 18.5 22.2C23.7211 22.2 27.9556 26.4344 27.9556 31.6556V32.4367C25.2422 34.2867 21.9944 35.3556 18.5 35.3556C15.0056 35.3556 11.7578 34.2867 9.04445 32.4367ZM13.5667 15.6222C13.5667 12.9089 15.7867 10.6889 18.5 10.6889C21.2133 10.6889 23.4333 12.9089 23.4333 15.6222C23.4333 18.3356 21.2133 20.5556 18.5 20.5556C15.7867 20.5556 13.5667 18.3356 13.5667 15.6222ZM29.6 31.1622C29.3944 26.4756 26.3111 22.57 22.0767 21.1311C23.8856 19.98 25.0778 17.9244 25.0778 15.6222C25.0778 12.0044 22.1178 9.04445 18.5 9.04445C14.8822 9.04445 11.9222 12.0044 11.9222 15.6222C11.9222 17.9244 13.1144 19.98 14.9233 21.1311C10.6889 22.57 7.60556 26.5167 7.4 31.1622C3.86444 28.0789 1.64444 23.5567 1.64444 18.5C1.64444 9.20889 9.20889 1.64444 18.5 1.64444C27.7911 1.64444 35.3556 9.20889 35.3556 18.5C35.3556 23.5567 33.1356 28.0789 29.6 31.1622Z"
+                                                fill="#767474" />
+                                        </svg>
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Peter Andreev</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Russia</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Today</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__desktop">The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p class="text__mobile">
+                                        The best online zoo I’ve met. My son delighted very much ljves to watch....
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Oskar.svg" alt="Osker">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Osker Zamoraev</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Makedonia</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                        I’ve met. My son delighted very much
+                                        ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
+                                        animals.The best online zoo I’ve met. My
+                                        son delighted very much ljves to watch gouillas.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__wrapper">
+                            <div class="testimonial">
+                                <div class="head">
+                                    <div class="head__avatar">
+                                        <img src="../../assets/images/Frederica.svg" alt="Anya">
+                                    </div>
+                                    <div class="head__author">
+                                        <h3 class="head__author-name">Anya Pochikhina</h3>
+                                        <div class="head__author-data">
+                                            <span class="location">Local Armenia</span>
+                                            <span class="dot">•</span>
+                                            <span class="date">Yesterday</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met. My son delighted very
+                                        much ljves to watch
+                                        gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf
+                                        the
+                                        ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+                                    <p>The best online zoo I’ve met. My son delighted very much
+                                        ljves to watch gouillas.
+                                        Online zoo is one jf the ways to
+                                        instill a love for animals.The best online zoo I’ve met.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__bar">
+                        <input class="container__bar-inner" type="range" min="0" max="7" step="1" value="0">
+                    </div>
+                </div>
+                <button class="btn">LEAVE FEEDBACK</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container desktop">
+            <div class="container__header">
+                <div class="container__header-logo">
+                    <a href="#">
+                        <p>PetStory online</p>
+                        <img src="../../assets/images/bamboo.svg" alt="bamboo">
+                    </a>
+                </div>
+                <form class="container__header-subscribe">
+                    <h2>Subscribe to our news</h2>
+                    <div>
+                        <input required type="email" placeholder="Enter your email">
+                        <button default>Submit</button>
+                    </div>
+                </form>
+            </div>
+            <button class="btn">
+                <a class="url" href="../donate/donate.html">
+                    DONATE FOR VOLUNTEERS
+                </a>
+            </button>
+            <div class="container__footer">
+                <div class="contacts">
+                    <a class="contacts__item" href="https://www.facebook.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8 2.75008H6.4C5.29832 2.75008 5.33342 3.14316 5.33342 3.8619V4.99991H8L7.46658 8H5.33342V16H1.6V8H0V4.99991H1.6V3.58692C1.6 1.33782 2.79742 0 5.62684 0H8V2.75008Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="contacts__item-name">
+                            Facebook
+                        </p>
+                    </a>
+                    <a class="contacts__item" href="https://www.twitter.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16 1.65713C15.4114 1.93821 14.7787 2.12837 14.1147 2.21377C14.7923 1.77623 15.313 1.08372 15.5579 0.258267C14.9237 0.6633 14.2211 0.957523 13.4734 1.11604C12.8747 0.429062 12.0216 0 11.0774 0C9.26464 0 7.79488 1.58227 7.79488 3.53414C7.79488 3.81108 7.82384 4.08093 7.87984 4.33971C5.15168 4.19226 2.73296 2.7851 1.11392 0.646704C0.83136 1.16877 0.66944 1.77589 0.66944 2.42363C0.66944 3.64979 1.24896 4.73161 2.12976 5.36552C1.59168 5.34702 1.08544 5.18816 0.64304 4.92349C0.64272 4.93801 0.64272 4.95288 0.64272 4.96775C0.64272 6.68019 1.77424 8.10861 3.27584 8.43343C3.00048 8.51416 2.7104 8.55755 2.41104 8.55755C2.19952 8.55755 1.99392 8.53525 1.79344 8.49394C2.2112 9.89798 3.42336 10.92 4.85984 10.9485C3.73648 11.8964 2.32096 12.4615 0.78304 12.4615C0.51808 12.4615 0.2568 12.4447 0 12.412C1.45264 13.4148 3.17824 14 5.03184 14C11.0698 14 14.3715 8.61443 14.3715 3.94401C14.3715 3.79068 14.3683 3.63821 14.3621 3.4866C15.0035 2.98839 15.56 2.36589 16 1.65713Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="contacts__item-name">
+                            Twitter
+                        </p>
+                    </a>
+                    <a class="contacts__item" href="https://www.instagram.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.70172 0.0482874C3.8501 0.0870031 3.26863 0.222151 2.75974 0.420015C2.23357 0.624308 1.78768 0.898032 1.34294 1.34276C0.897913 1.78749 0.624468 2.23351 0.420169 2.75967C0.2223 3.26869 0.0870054 3.85014 0.0482887 4.7016C0.00928629 5.55491 0 5.82721 0 8C0 10.1728 0.00928629 10.4449 0.0482887 11.2984C0.0870054 12.1499 0.2223 12.7313 0.420169 13.24C0.624468 13.7662 0.897913 14.2125 1.34294 14.6571C1.78768 15.102 2.23357 15.3754 2.75974 15.58C3.26863 15.7779 3.8501 15.913 4.70172 15.9517C5.55506 15.9907 5.82736 16 8.00007 16C10.1729 16 10.4452 15.9907 11.2986 15.9517C12.15 15.913 12.7315 15.7779 13.2407 15.58C13.7664 15.3754 14.2127 15.102 14.6575 14.6571C15.1022 14.2125 15.3755 13.7662 15.5801 13.24C15.7778 12.7313 15.9133 12.1499 15.952 11.2984C15.991 10.4449 16 10.1728 16 8C16 5.82721 15.991 5.55491 15.952 4.7016C15.9133 3.85014 15.7778 3.26869 15.5801 2.75967C15.3755 2.23351 15.1022 1.78749 14.6575 1.34276C14.2127 0.898032 13.7664 0.624308 13.2407 0.420015C12.7315 0.222151 12.15 0.0870031 11.2986 0.0482874C10.4452 0.00942891 10.1729 0 8.00007 0C5.82736 0 5.55506 0.00942891 4.70172 0.0482874ZM4.76747 14.5116C3.98742 14.4761 3.56382 14.3461 3.28209 14.2364C2.9085 14.091 2.6422 13.9177 2.36218 13.6378C2.08216 13.358 1.90886 13.0915 1.76357 12.7181C1.65399 12.4362 1.52384 12.0126 1.48812 11.2326C1.44969 10.389 1.44141 10.1359 1.44141 7.99992C1.44141 5.8637 1.44969 5.61083 1.48812 4.76709C1.52384 3.9872 1.65399 3.56362 1.76357 3.28175C1.90886 2.90831 2.08216 2.64173 2.36218 2.36186C2.6422 2.08199 2.9085 1.90841 3.28209 1.76355C3.56382 1.65398 3.98742 1.52369 4.76747 1.48797C5.61095 1.44954 5.86411 1.4414 8.0001 1.4414C10.1361 1.4414 10.3891 1.44954 11.233 1.48797C12.0128 1.52369 12.4364 1.65398 12.7184 1.76355C13.0918 1.90841 13.3583 2.08199 13.6382 2.36186C13.9182 2.64173 14.0913 2.90831 14.2366 3.28175C14.3462 3.56362 14.4765 3.9872 14.5122 4.76709C14.5507 5.61083 14.5585 5.8637 14.5585 7.99992C14.5585 10.1359 14.5507 10.389 14.5122 11.2326C14.4765 12.0126 14.3462 12.4362 14.2366 12.7181C14.0913 13.0915 13.9182 13.358 13.6382 13.6378C13.3583 13.9177 13.0918 14.091 12.7184 14.2364C12.4364 14.3461 12.0128 14.4761 11.233 14.5116C10.3894 14.5503 10.1364 14.5583 8.0001 14.5583C5.86411 14.5583 5.61095 14.5503 4.76747 14.5116ZM11.3105 3.72943C11.3105 4.25945 11.7403 4.68947 12.2706 4.68947C12.8008 4.68947 13.2305 4.25945 13.2305 3.72943C13.2305 3.19913 12.8008 2.76954 12.2706 2.76954C11.7403 2.76954 11.3105 3.19913 11.3105 3.72943ZM3.8916 8.00017C3.8916 10.2691 5.731 12.1082 7.99986 12.1082C10.2689 12.1082 12.108 10.2691 12.108 8.00017C12.108 5.73124 10.2689 3.89203 7.99986 3.89203C5.731 3.89203 3.8916 5.73124 3.8916 8.00017ZM5.33398 8.00009C5.33398 6.52732 6.52777 5.33343 8.00058 5.33343C9.47339 5.33343 10.6673 6.52732 10.6673 8.00009C10.6673 9.473 9.47339 10.6668 8.00058 10.6668C6.52777 10.6668 5.33398 9.473 5.33398 8.00009Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="contacts__item-name">
+                            Instagram
+                        </p>
+                    </a>
+                    <a class="contacts__item" href="https://www.youtube.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="18" height="13" viewBox="0 0 18 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.0062 5.77285L7.4938 3.51719C7.4938 3.51719 6.24039 2.94726 6.24039 4.01864V9.03097C6.24039 9.03097 6.26358 9.7955 7.4938 9.28148C8.34978 8.92371 12.0062 7.02582 12.0062 7.02582C12.0062 7.02582 12.9391 6.42816 12.0062 5.77285ZM17.5213 10.7852C16.9624 12.3749 15.7669 12.5797 14.7637 12.7901C13.2852 13.1002 3.77237 13.0612 2.22922 12.5394C1.26706 12.2141 0.675032 12.0741 0.223857 9.78271C-0.0650079 8.3165 -0.0840778 4.00304 0.223857 2.51494C0.52204 1.07408 1.27096 0.397534 2.73067 0.259278C6.65148 -0.112151 13.205 -0.0597085 15.265 0.259278C17.1748 0.554861 17.5739 1.69385 17.772 2.76545C18.0927 4.50037 18.1304 9.05243 17.5213 10.7852Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="contacts__item-name">
+                            YouTube
+                        </p>
+                    </a>
+                </div>
+
+                <button class="btn">
+                    <a class="url" href="../donate/donate.html">
+                        DONATE FOR VOLUNTEERS
+                    </a>
+                </button>
+
+                <ul class="navigation">
+                    <li><a href="#" class="active">About</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Zoos</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+                <div class="designed">
+                    <div class="designed__inner">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
+                            <span>Designed by Alisa Samborskaya</span>
+                            <span>©RSSchool & ©Yem Digital 2021</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container tablet">
+            <div class="container__header">
+                <div class="container__header-logo">
+                    <a href="#">
+                        <p>PetStory online</p>
+                        <img src="../../assets/images/bamboo.svg" alt="bamboo">
+                    </a>
+                </div>
+                <button class="btn">
+                    <a class="url" href="../donate/donate.html">
+                        DONATE FOR VOLUNTEERS
+                    </a>
+                </button>
+                <ul class="navigation">
+                    <li><a href="#" class="active">About</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Zoos</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="container__footer">
+                <div class="contacts">
+                    <a class="contacts__item" href="https://www.facebook.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8 2.75008H6.4C5.29832 2.75008 5.33342 3.14316 5.33342 3.8619V4.99991H8L7.46658 8H5.33342V16H1.6V8H0V4.99991H1.6V3.58692C1.6 1.33782 2.79742 0 5.62684 0H8V2.75008Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a class="contacts__item" href="https://www.twitter.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16 1.65713C15.4114 1.93821 14.7787 2.12837 14.1147 2.21377C14.7923 1.77623 15.313 1.08372 15.5579 0.258267C14.9237 0.6633 14.2211 0.957523 13.4734 1.11604C12.8747 0.429062 12.0216 0 11.0774 0C9.26464 0 7.79488 1.58227 7.79488 3.53414C7.79488 3.81108 7.82384 4.08093 7.87984 4.33971C5.15168 4.19226 2.73296 2.7851 1.11392 0.646704C0.83136 1.16877 0.66944 1.77589 0.66944 2.42363C0.66944 3.64979 1.24896 4.73161 2.12976 5.36552C1.59168 5.34702 1.08544 5.18816 0.64304 4.92349C0.64272 4.93801 0.64272 4.95288 0.64272 4.96775C0.64272 6.68019 1.77424 8.10861 3.27584 8.43343C3.00048 8.51416 2.7104 8.55755 2.41104 8.55755C2.19952 8.55755 1.99392 8.53525 1.79344 8.49394C2.2112 9.89798 3.42336 10.92 4.85984 10.9485C3.73648 11.8964 2.32096 12.4615 0.78304 12.4615C0.51808 12.4615 0.2568 12.4447 0 12.412C1.45264 13.4148 3.17824 14 5.03184 14C11.0698 14 14.3715 8.61443 14.3715 3.94401C14.3715 3.79068 14.3683 3.63821 14.3621 3.4866C15.0035 2.98839 15.56 2.36589 16 1.65713Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a class="contacts__item" href="https://www.instagram.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.70172 0.0482874C3.8501 0.0870031 3.26863 0.222151 2.75974 0.420015C2.23357 0.624308 1.78768 0.898032 1.34294 1.34276C0.897913 1.78749 0.624468 2.23351 0.420169 2.75967C0.2223 3.26869 0.0870054 3.85014 0.0482887 4.7016C0.00928629 5.55491 0 5.82721 0 8C0 10.1728 0.00928629 10.4449 0.0482887 11.2984C0.0870054 12.1499 0.2223 12.7313 0.420169 13.24C0.624468 13.7662 0.897913 14.2125 1.34294 14.6571C1.78768 15.102 2.23357 15.3754 2.75974 15.58C3.26863 15.7779 3.8501 15.913 4.70172 15.9517C5.55506 15.9907 5.82736 16 8.00007 16C10.1729 16 10.4452 15.9907 11.2986 15.9517C12.15 15.913 12.7315 15.7779 13.2407 15.58C13.7664 15.3754 14.2127 15.102 14.6575 14.6571C15.1022 14.2125 15.3755 13.7662 15.5801 13.24C15.7778 12.7313 15.9133 12.1499 15.952 11.2984C15.991 10.4449 16 10.1728 16 8C16 5.82721 15.991 5.55491 15.952 4.7016C15.9133 3.85014 15.7778 3.26869 15.5801 2.75967C15.3755 2.23351 15.1022 1.78749 14.6575 1.34276C14.2127 0.898032 13.7664 0.624308 13.2407 0.420015C12.7315 0.222151 12.15 0.0870031 11.2986 0.0482874C10.4452 0.00942891 10.1729 0 8.00007 0C5.82736 0 5.55506 0.00942891 4.70172 0.0482874ZM4.76747 14.5116C3.98742 14.4761 3.56382 14.3461 3.28209 14.2364C2.9085 14.091 2.6422 13.9177 2.36218 13.6378C2.08216 13.358 1.90886 13.0915 1.76357 12.7181C1.65399 12.4362 1.52384 12.0126 1.48812 11.2326C1.44969 10.389 1.44141 10.1359 1.44141 7.99992C1.44141 5.8637 1.44969 5.61083 1.48812 4.76709C1.52384 3.9872 1.65399 3.56362 1.76357 3.28175C1.90886 2.90831 2.08216 2.64173 2.36218 2.36186C2.6422 2.08199 2.9085 1.90841 3.28209 1.76355C3.56382 1.65398 3.98742 1.52369 4.76747 1.48797C5.61095 1.44954 5.86411 1.4414 8.0001 1.4414C10.1361 1.4414 10.3891 1.44954 11.233 1.48797C12.0128 1.52369 12.4364 1.65398 12.7184 1.76355C13.0918 1.90841 13.3583 2.08199 13.6382 2.36186C13.9182 2.64173 14.0913 2.90831 14.2366 3.28175C14.3462 3.56362 14.4765 3.9872 14.5122 4.76709C14.5507 5.61083 14.5585 5.8637 14.5585 7.99992C14.5585 10.1359 14.5507 10.389 14.5122 11.2326C14.4765 12.0126 14.3462 12.4362 14.2366 12.7181C14.0913 13.0915 13.9182 13.358 13.6382 13.6378C13.3583 13.9177 13.0918 14.091 12.7184 14.2364C12.4364 14.3461 12.0128 14.4761 11.233 14.5116C10.3894 14.5503 10.1364 14.5583 8.0001 14.5583C5.86411 14.5583 5.61095 14.5503 4.76747 14.5116ZM11.3105 3.72943C11.3105 4.25945 11.7403 4.68947 12.2706 4.68947C12.8008 4.68947 13.2305 4.25945 13.2305 3.72943C13.2305 3.19913 12.8008 2.76954 12.2706 2.76954C11.7403 2.76954 11.3105 3.19913 11.3105 3.72943ZM3.8916 8.00017C3.8916 10.2691 5.731 12.1082 7.99986 12.1082C10.2689 12.1082 12.108 10.2691 12.108 8.00017C12.108 5.73124 10.2689 3.89203 7.99986 3.89203C5.731 3.89203 3.8916 5.73124 3.8916 8.00017ZM5.33398 8.00009C5.33398 6.52732 6.52777 5.33343 8.00058 5.33343C9.47339 5.33343 10.6673 6.52732 10.6673 8.00009C10.6673 9.473 9.47339 10.6668 8.00058 10.6668C6.52777 10.6668 5.33398 9.473 5.33398 8.00009Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a class="contacts__item" href="https://www.youtube.com/">
+                        <div class="contacts__item-circle">
+                            <svg width="18" height="13" viewBox="0 0 18 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.0062 5.77285L7.4938 3.51719C7.4938 3.51719 6.24039 2.94726 6.24039 4.01864V9.03097C6.24039 9.03097 6.26358 9.7955 7.4938 9.28148C8.34978 8.92371 12.0062 7.02582 12.0062 7.02582C12.0062 7.02582 12.9391 6.42816 12.0062 5.77285ZM17.5213 10.7852C16.9624 12.3749 15.7669 12.5797 14.7637 12.7901C13.2852 13.1002 3.77237 13.0612 2.22922 12.5394C1.26706 12.2141 0.675032 12.0741 0.223857 9.78271C-0.0650079 8.3165 -0.0840778 4.00304 0.223857 2.51494C0.52204 1.07408 1.27096 0.397534 2.73067 0.259278C6.65148 -0.112151 13.205 -0.0597085 15.265 0.259278C17.1748 0.554861 17.5739 1.69385 17.772 2.76545C18.0927 4.50037 18.1304 9.05243 17.5213 10.7852Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="designed">
+                    <div class="designed__inner">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
+                            <span>Designed by Alisa Samborskaya</span>
+                            <span>©RSSchool & ©Yem Digital 2021</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/burger.js"></script>
+</body>
+
+</html>
+
+<div class="container">
+    <ol>
+        <li class="item"><a href=""></a></li>
+        <li class="item"><a href=""></a></li>
+        <li class="item"><a href=""></a></li>
+        <li class="item"><a href=""></a></li>
+        <li class="item"><a href=""></a></li>
+    </ol>
+</div>
